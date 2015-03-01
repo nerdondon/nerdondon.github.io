@@ -1,7 +1,7 @@
 # Menu navigation links
 
-- title: Theme Setup
-  url: /theme-setup/
+ - title: Reading List
+   url: /reading-list/
 
-- title: External Link
-  url: http://mademistakes.com
+# - title: External Link
+#   url: http://mademistakes.com
