@@ -15,7 +15,10 @@ owner:
   email:          "willdon@nerdondon.com"
   # Social networking links used in footer. Update and remove as you like.
   twitter:        "@ender_cc"
-  github:         "https://github.com/nerdondon"
+  github:         "nerdondon"
+  stackexchange:
+  facebook:
+  google_plus:    
 
 # Background image to be tiled on all pages
 background:
