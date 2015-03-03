@@ -2,7 +2,7 @@
 layout: page
 title: About Will
 image:
-  feature: Banner.png
+  feature: Banner-smaller.png
 comments: false
 modified: 2015-02-28
 ---
