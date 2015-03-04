@@ -5,11 +5,11 @@ date: 2015-03-03T18:01:43-08:00
 modified:
 description: My Current Reading List
 image:
-  feature: Banner-smaller.png
+  feature: Banner.png
 share: true
 ---
 
-#  List
+# Reading List
 Just a page to track the books that I'm reading or plan to read
 
 ### The Bible/Theological
