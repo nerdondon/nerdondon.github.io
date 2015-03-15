@@ -16,7 +16,7 @@
   {% if page.image.credit %}<div class="image-credit">Image source: <a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a></div><!-- /.image-credit -->{% endif %}
   {% if page.image.feature %}
     <div class="entry-image">
-      <img src="{{ site.url }}/images/{{ page.image.feature }}" alt="{{ page.title }}">
+      <img id="header-image" src="{{ site.url }}/images/{{ page.image.feature }}" alt="{{ page.title }}">
     </div><!-- /.entry-image -->
   {% endif %}
   <div class="header-title">
@@ -46,21 +46,21 @@
 
 <script>
     $(window).load(function() {
-        var startingYPos = parseInt($('.entry-image img').css('top'));
+        var startingYPos = parseInt($('#header-image').css('top'));
         var scrollMagicController = new ScrollMagic.Controller({
             globalSceneOptions: {
                 triggerHook: 'onLeave'
             }
         });
 
-        var topperTween = TweenMax.to('.entry-image img', .5, {
-            top: '-' + $('.entry-image img').height() * 0.3 + 'px',
+        var topperTween = TweenMax.to('#header-image', .5, {
+            top: '-' + $('#header-image').height() * 0.3 + 'px',
             ease: Cubic.ease,
             z: 1
         });
 
         var scene = new ScrollMagic.Scene({
-            triggerElement: '.entry-image img',
+            triggerElement: '#header-image',
             duration: '100%'
         }).setTween(topperTween).addTo(scrollMagicController);
     });
