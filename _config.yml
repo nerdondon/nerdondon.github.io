@@ -10,11 +10,11 @@ url:
 # Owner/author information
 owner:
   name:           Will Don
-  avatar:         "avatar.jpg"
-  bio:            "Christian. Finance. Security. Dev."
+  avatar:         "headshot_avatar.jpg"
+  bio:            "Dev. Finance. Security."
   email:          "willdon@nerdondon.com"
   # Social networking links used in footer. Update and remove as you like.
-  twitter:        "@ender_cc"
+  twitter:        "@nerdondon"
   facebook:
   github:         "nerdondon"
   stackexchange:
