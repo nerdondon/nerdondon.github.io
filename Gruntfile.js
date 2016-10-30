@@ -74,7 +74,6 @@ module.exports = function(grunt) {
   grunt.registerTask('default', [
     'clean',
     'uglify',
-    'imagemin',
     'svgmin'
   ]);
   grunt.registerTask('dev', [
