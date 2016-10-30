@@ -36,11 +36,14 @@ bing_verify:
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    America/Los_Angeles
-future:      true
-#highlighter: pygments
+future:      false
+highlighter: rouge
 markdown:    kramdown
 gems:
   - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-gist
+  - jekyll-feed
 sass:
   sass_dir: _sass
   style: compressed
@@ -52,18 +55,41 @@ permalink:   /:categories/:title/
 paginate: 5
 
 kramdown:
+  input: GFM
   auto_ids: true
   footnote_nr: 1
   entity_output: as_char
   toc_levels: 1..6
-  use_coderay: true
+  enable_coderay: false
 
-  coderay:
-    coderay_line_numbers: nil
-    coderay_line_numbers_start: 1
-    coderay_tab_width: 4
-    coderay_bold_every: 10
-    coderay_css: class
-
-include: [".htaccess"]
-exclude: ["lib", "config.rb", "Capfile", "config", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "samples"]
+include:
+  - .htaccess
+exclude:
+  - "*.less"
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - CHANGELOG
+  - Capfile
+  - Gemfile
+  - Gemfile.lock
+  - Gruntfile.js
+  - LICENSE
+  - README
+  - README.md
+  - Rakefile
+  - Rakefile.rb
+  - test
+  - config
+  - config.rb
+  - gulpfile.js
+  - lib
+  - samples
+  - log
+  - node_modules
+  - package.json
+  - spec
+  - tmp
