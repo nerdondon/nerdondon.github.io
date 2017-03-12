@@ -1,15 +1,15 @@
 ---
 layout: page
-title: About Will
+title: About Sean
 image:
-  feature: Banner-smaller.png
+  feature: Banner.png
 comments: false
-modified: 2015-02-28
+modified: 2017-03-11
 ---
 
-## Will Don (nerdondon)
+## Will Sean Don (nerdondon)
 
-Hi, I’m Will.
+Hi, I’m Sean (or Will depending on how old I was when I met you).
 
 This blog will mainly be a bunch of random thoughts that I have on things from information security to information on securities (financial stuff if you don’t get the pun :D).
 I’m a software engineer at a financial firm.
