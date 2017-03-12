@@ -51,9 +51,15 @@ body {
    ========================================================================== */
 
 .entry-header {
-	width: 100%;
+	height: 400px;
 	overflow: hidden;
 	position: relative;
+  background: {
+    image: url(http://blog.nerdondon.com/images/Banner.png);
+    size: 100% 400px;
+    position: top center;
+    attachment: fixed;
+  }
 }
 
 .header-title {

@@ -60,24 +60,8 @@
 <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.0/plugins/animation.gsap.min.js"></script>
 
 <script>
-    $(window).load(function() {
-        var startingYPos = parseInt($('#header-image').css('top'));
-        var scrollMagicController = new ScrollMagic.Controller({
-            globalSceneOptions: {
-                triggerHook: 'onLeave'
-            }
-        });
+    $(function() {
 
-        var topperTween = TweenMax.to('#header-image', .5, {
-            top: '-' + $('#header-image').height() * 0.3 + 'px',
-            ease: Cubic.ease,
-            z: 1
-        });
-
-        var scene = new ScrollMagic.Scene({
-            triggerElement: '#header-image',
-            duration: '100%'
-        }).setTween(topperTween).addTo(scrollMagicController);
     });
 </script>
 
