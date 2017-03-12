@@ -1,3 +1,8 @@
+# IntelliJ user specific
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/dictionaries
+
 _site
 .DS_Store
 *.sublime-project
