@@ -39,7 +39,7 @@ timezone:    America/Los_Angeles
 future:      false
 highlighter: rouge
 markdown:    kramdown
-gems:
+plugins:
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-gist
