@@ -29,7 +29,7 @@ owner:
 background:
 
 # Analytics and webmaster tools stuff goes here
-google_analytics:
+google_tracking_id: UA-115535679-1
 google_verify:
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify:
@@ -44,6 +44,7 @@ plugins:
   - jekyll-paginate
   - jekyll-gist
   - jekyll-feed
+  - jekyll-seo-tag
 sass:
   sass_dir: _sass
   style: compressed
