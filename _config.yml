@@ -92,5 +92,7 @@ exclude:
   - log
   - node_modules
   - package.json
+  - package-lock.json
+  - CNAME
   - spec
   - tmp
