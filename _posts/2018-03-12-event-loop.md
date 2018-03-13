@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Notes]: JavaScript Event Loop"
+title: "[Notes]: The JavaScript Event Loop"
 description: "Notes on the JavaScript Event Loop"
 tags: notes event-loop browser javascript
 ---
