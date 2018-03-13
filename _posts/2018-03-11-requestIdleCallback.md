@@ -46,5 +46,5 @@ tags: notes requestIdleCallback
 
 ### Useful references
 
-- https://developers.google.com/web/updates/2015/08/using-requestidlecallback
-- https://developers.google.com/web/fundamentals/performance/rendering/avoid-large-complex-layouts-and-layout-thrashing#avoid_forced_synchronous_layouts
+- [Using requestIdleCallback by Paul Lewis](https://developers.google.com/web/updates/2015/08/using-requestidlecallback)
+- [Avoid forced synchronous layouts on Google Developers Web Docs](https://developers.google.com/web/fundamentals/performance/rendering/avoid-large-complex-layouts-and-layout-thrashing#avoid_forced_synchronous_layouts)
