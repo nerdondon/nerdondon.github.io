@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[Notes]: Distributed Sagas: A Protocol for Coordinating Microservices"
-description: "Notes on the Distributed Sagas: A Protocol for Coordinating Microservices"
+description: "Notes on Distributed Sagas: A Protocol for Coordinating Microservices"
 tags: notes microservices distributed sagas protocol
 ---
 
