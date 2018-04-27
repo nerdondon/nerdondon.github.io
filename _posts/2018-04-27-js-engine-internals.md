@@ -7,9 +7,9 @@ tags: notes javascript internals v8
 
 ## Prelude
 
-Some notes from the **V8 internals for JavaScript developers?** talk by Mathias Bynens at JsConf AU
-2018. Watch on YouTube [here](https://www.youtube.com/watch?v=m9cTaYI95Zc). This
-talk focuses on arrays and JS engine optimizations around array operations.
+Some notes from the **V8 internals for JavaScript developers?** talk by Mathias Bynens. The talk
+was given at JsConf AU 2018. Watch on YouTube [here](https://www.youtube.com/watch?v=m9cTaYI95Zc).
+This talk focuses on arrays and JS engine optimizations around array operations.
 
 ## Actual Notes :D
 
