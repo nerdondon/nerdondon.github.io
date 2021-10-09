@@ -9,6 +9,6 @@ title: "Post Ideas"
 - GC notes
 - C# closure notes
 - Proper tail calls vs tail call elimination
-- css and compositor thread
+- css and compositor thread (smashing magazine article and transforms)
 - closures
 - lambda vs kappa data arch
